@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1333449661427676}
+  m_IsPrefabAsset: 1
+--- !u!1 &1333449661427676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4775551682635342}
+  - component: {fileID: 114487154242015030}
+  m_Layer: 0
+  m_Name: NewsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4775551682635342
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333449661427676}
+  m_LocalRotation: {x: 0.5066382, y: -0.49316087, z: 0.48993132, w: 0.50997776}
+  m_LocalPosition: {x: 365.4, y: 175, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114487154242015030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333449661427676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed4ec1c3361a474c8a9572142d81b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewsOrder:
+  - {fileID: 1354026794898772, guid: e9497c735af2d3747be1024d03b6e092, type: 2}
+  - {fileID: 1354026794898772, guid: 7ec6fc19d4de6f84c9e0d00ab56f5c6c, type: 2}
+  - {fileID: 1354026794898772, guid: 1a65cdde5a7eb0644969d5f542eb42f3, type: 2}
+  censorship: {fileID: 1419901571655196, guid: c4241071dbb5fc54a9c60c85dd07f3f6, type: 2}
+  timeToHold: 40
